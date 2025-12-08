@@ -44,8 +44,7 @@ st.header("4. Additional Charts")
 st.subheader("Repair Amount Histogram (from earlier analysis)")
 st.image("chart_repair_histogram.png")
 
-st.subheader("Income by TSA Eligibility (from earlier analysis)")
-st.image("chart_income_by_tsa_boxplot.png")
+
 
 
 # -----------------------------
@@ -53,3 +52,4 @@ st.image("chart_income_by_tsa_boxplot.png")
 # -----------------------------
 st.header("5. Conclusion")
 st.write("This dashboard summarizes repair levels and TSA eligibility patterns using the FEMA sample dataset.")
+

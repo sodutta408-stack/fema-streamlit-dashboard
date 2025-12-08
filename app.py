@@ -51,5 +51,14 @@ st.image("chart_repair_histogram.png")
 # END
 # -----------------------------
 st.header("5. Conclusion")
+st.header("5. Conclusion")
+st.write(
+    "This dashboard gives a simple view of repair needs and TSA eligibility using the smaller FEMA sample dataset. "
+    "Most households show low repair amounts, while a small number have much higher values. "
+    "The boxplot suggests that households marked as eligible often have higher repair needs. "
+    "Together, these charts help show how repair levels relate to short-term housing support decisions."
+)
+
 st.write("This dashboard summarizes repair levels and TSA eligibility patterns using the FEMA sample dataset.")
+
 

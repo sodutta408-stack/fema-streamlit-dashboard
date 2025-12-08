@@ -50,7 +50,7 @@ st.image("chart_repair_histogram.png")
 # -----------------------------
 # END
 # -----------------------------
-st.header("5. Conclusion")
+
 st.header("5. Conclusion")
 st.write(
     "This dashboard gives a simple view of repair needs and TSA eligibility using the smaller FEMA sample dataset. "
@@ -60,5 +60,6 @@ st.write(
 )
 
 st.write("This dashboard summarizes repair levels and TSA eligibility patterns using the FEMA sample dataset.")
+
 
 

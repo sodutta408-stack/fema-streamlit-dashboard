@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.title("FEMA TSA Dashboard (Sample Dataset)")
+st.write("Author:Charlotte Neme")
 
 # Load your sample file (must be in the same folder)
 df = pd.read_excel("FEMA Data Sample.xlsx")
@@ -60,6 +61,7 @@ st.write(
 )
 
 st.write("This dashboard summarizes repair levels and TSA eligibility patterns using the FEMA sample dataset.")
+
 
 
 
